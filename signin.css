@@ -1,0 +1,48 @@
+body {
+  background-color: #6a62d2;
+}
+h1 {
+  font-size: 13px;
+  padding-top: 43px;
+  padding-bottom: 21px;
+  padding-left: 70px;
+}
+#signin {
+  display: block;
+  margin: auto;
+  background-color: white;
+  height: 300px;
+  max-width: 350px;
+  margin-top: 87px;
+}
+#username,
+#password {
+  background-color: #e5e8ed;
+  height: 30px;
+  width: 200px;
+  margin-left: 59px;
+  margin-bottom: 10px;
+  border: 1px solid #e5e8ed;
+}
+/* #password {
+    background-color: #e5e8ed;
+    height: 30px;
+    width: 200px;
+    margin-left: 59px;
+    margin-bottom: 10px;
+  } */
+
+#enter {
+  background-color: #746bde;
+  height: 30px;
+  width: 200px;
+  margin-left: 59px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+h6 {
+  display: block;
+  padding-left: 112px;
+  color: grey;
+  margin-top: 12px;
+}

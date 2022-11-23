@@ -1,0 +1,29 @@
+body {
+  background-color: #5ac9e4;
+}
+
+#regform {
+  display: block;
+  margin: auto;
+  background-color: white;
+  height: 400px;
+  max-width: 400px;
+  /* margin: 172px; */
+  margin-top: 87px;
+}
+/* #regform {
+      background-color: white;
+      padding: 18px;
+      max-width: 300px;
+      margin: 166px;
+      margin-top: 75px;
+    } */
+#username,
+#password {
+  height: 25px;
+  width: 200px;
+}
+/* #password {
+      height: 25px;
+      width: 200px;
+    } */

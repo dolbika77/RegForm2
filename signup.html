@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="signup">
+      <form style="margin-left: 20px">
+        <h1>Sign Up</h1>
+        <h6>Please fill in this form to create an account</h6>
+
+        <div class="info">
+          <label for="fname"></label>
+          <input type="text" id="fname" placeholder="First Name" />
+
+          <label for="sname"></label>
+          <input type="text" id="sname" placeholder="Last Name" />
+
+          <br />
+          <label for="email"></label>
+          <input type="email" id="email" class="reginfo" placeholder="Email" />
+
+          <br />
+          <label for="password"></label>
+          <input
+            type="password"
+            id="password"
+            class="reginfo"
+            placeholder="Password"
+          />
+
+          <br />
+          <label for="rpassword"></label>
+          <input
+            type="password"
+            id="rpassword"
+            class="reginfo"
+            placeholder="Confirm Password"
+          />
+        </div>
+        <br />
+        <input type="checkbox" />I accept the <a href="terms">Terms of use</a>&
+        <a href="privace">Privace policy</a>
+        <br />
+        <button
+          style="
+            color: white;
+            background-color: #3598dc;
+            height: 30px;
+            width: 90px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border: 1px solid #3598dc;
+          "
+        >
+          sign in
+        </button>
+      </form>
+    </div>
+    <center>
+      <footer style="color: white">
+        Already have account?
+        <span style="text-decoration: underline"> Login here</span>
+      </footer>
+    </center>
+  </body>
+</html>
